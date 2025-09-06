@@ -9,7 +9,6 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-// POST /api/realtime/session
 type SessionReq struct {
 	Model        string `json:"model"`
 	Voice        string `json:"voice"`
